@@ -21,7 +21,8 @@ export default function WeatherApp() {
 
         <div className="container"> {/* Add a flex parent */}
             <div className="weatherApp">
-                <h1>Weather App</h1>
+            <h1 style={{ color: '#0288D1' }}>SKYSENSE</h1>
+
                 <SearchBox updateInfo={updateInfo} />
                 <InfoBox info={weatherInfo} />
             </div>
